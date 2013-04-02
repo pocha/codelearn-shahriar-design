@@ -119,9 +119,12 @@ a {
 
 #header-content-right
 {
-	width: 50%;
+	width: 500px;
 	min-width: 256px;
 	display: inline-block;
+	border-top: 20px solid #cdcdcd;
+	border-radius: 5px 5px 0px 0px;
+	float:right;
 }
 
 #header-content
@@ -316,10 +319,8 @@ a {
 
 #nav
 {
-	width: 100%;
+	width: 110%;
 	list-style: none;
-	border-top: 20px solid #cdcdcd;
-	border-radius: 5px 5px 0px 0px;
 	margin: 0px;
 	padding: 0px;
 	color: #36aad9;
@@ -329,7 +330,7 @@ a {
 {
 	background: #eeeeee;
 	cursor: pointer;
-	width: 24.8%;
+	width: 124px;
 	margin: 0px;
 	float: left;
 	padding: 15px 0px;
@@ -440,14 +441,16 @@ a {
 
 	#header-content-right
 	{
+		float:none;
 		width:500px;
 		margin:0 auto;
-		display:block;
+		display:table;
 	}
 
 	#nav 
 	{
 		float:left;
+		width:110%;
 	}
 
 	#main-content h1
