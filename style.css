@@ -80,7 +80,7 @@ body
 	display: inline-block;
 	float: right;
 	margin-top: 15px;
-	color: #697d89;
+	color: #abb7be;
 	font-weight: bold;
 	font-size: 12px;
 }
@@ -180,6 +180,7 @@ body
 	font-weight: 100;
 	font-size: 14px;
 	line-height: 150%;
+	margin: 1em 0.5em;
 }
 
 #shah-quote
