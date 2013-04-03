@@ -30,7 +30,7 @@ body
 	line-height: 125%;
 }
 
-#shah-footer-wrapper a, #shah-header-wrapper a, .button a {
+#shah-footer-wrapper a, #shah-header-wrapper a, .shah-button a {
 	text-decoration: none;
 	color: inherit;
 }
