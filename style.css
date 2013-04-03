@@ -420,6 +420,35 @@ body
 	color:#697d89;
 }
 
+.shah-social-icons-container {
+	display: table;
+	list-style: none outside none;
+	padding: 0;
+}
+.shah-social-icons-container li {
+	display: table-cell;
+	text-align: center;
+	padding-right: 10px;
+}
+.shah-social-icon {
+	background: url("images/social-sprite.png") no-repeat scroll 0 0 transparent;
+	display: inline-block;
+	height: 50px;
+	line-height: 600px;
+	overflow: hidden;
+	width: 50px;
+}
+.shah-social-icon-facebook {
+	background-position: -100px 0;
+}
+.shah-social-icon-twitter:hover {
+	background-position: 0px -50px;
+}
+.shah-social-icon-facebook:hover {
+	background-position: -100px -50px;
+}
+
+
 @media screen and (max-width: 1120px)
 {
 	#header-content-left
