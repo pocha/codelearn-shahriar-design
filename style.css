@@ -14,66 +14,54 @@ body
 {
 	margin:0px;
 	padding:0px;
-	font-family: proximanova;
+	font-family: proximanova, 'Open Sans', sans-serif;
 }
 
-h1
+#shah-header-wrapper h1, #shah-main-content-wrapper h1,
+#shah-header-wrapper h3, #shah-main-content-wrapper h3,
+#shah-header-wrapper h4, #shah-main-content-wrapper h4
 {
 	line-height:150%;
 }
 
-h2
+#shah-header-wrapper h2, #shah-main-content-wrapper h2,
+#shah-header-wrapper h5, #shah-main-content-wrapper h5
 {
 	line-height: 125%;
 }
 
-h3
-{
-	line-height:150%;
-}
-
-h4
-{
-	line-height:150%;
-}
-
-h5
-{
-	line-height: 125%;
-}
-
-a {
+#shah-footer-wrapper a, #shah-header-wrapper a, .button a {
 	text-decoration: none;
 	color: inherit;
 }
 
-.container
+.shah-container
 {
 	width:100%;
 	margin:0 auto;
 }
 
-#header-wrapper
+#shah-header-wrapper
 {
 	background: #29313f;
 	position: relative;
 	display: inline-block;
 }
 
-#header
+#shah-header
 {
 	margin-top: 30px;
 	padding-top: 17px;
 }
 
-.fluid-row
+.shah-fluid-row
 {
 	max-width: 1000px;
 	width: 90%;
 	margin: 0 auto;
 }
 
-#logo
+#shah-logo
 {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 30px;
@@ -84,7 +72,7 @@ a {
 	display: inline-block;
 }
 
-#main-nav
+#shah-main-nav
 {
 	list-style: none;
 	margin: 0px;
@@ -97,18 +85,18 @@ a {
 	font-size: 12px;
 }
 
-#main-nav li
+#shah-main-nav li
 {
 	float: left;
 	margin: 0px 15px;
 }
 
-#header-content
+#shah-header-content
 {
 	display:inline-block;
 }
 
-#header-content-left
+#shah-header-content-left
 {
 	width: 48%;
 	min-width: 256px;
@@ -117,7 +105,7 @@ a {
 	padding-right:2%;
 }
 
-#header-content-right
+#shah-header-content-right
 {
 	width: 500px;
 	min-width: 256px;
@@ -127,13 +115,13 @@ a {
 	float:right;
 }
 
-#header-content
+#shah-header-content
 {
 	margin-top: 70px;
 	width: 100%;
 }
 
-#header-content-left h1
+#shah-header-content-left h1
 {
 	font-size: 48px;
 	font-weight: 300;
@@ -141,14 +129,14 @@ a {
 	line-height:110%;
 }
 
-#header-content-left h4
+#shah-header-content-left h4
 {
 	color: #8f97a5;
 	font-weight: 300;
 	font-size: 22px;
 }
 
-.button
+.shah-button
 {
 	color: #FFF;
 	background: #eb3753;
@@ -163,14 +151,14 @@ a {
 	margin-bottom: 60px;
 }
 
-#main-content ul
+#shah-main-content ul
 {
 	list-style: none;
 	margin-top: 70px;
 	padding: 0px;
 }
 
-#main-content ul li
+#shah-main-content ul li
 {
 	display: inline-block;
 	width: 25%;
@@ -178,7 +166,7 @@ a {
 	text-align: center;
 }
 
-#main-content ul li h5
+#shah-main-content ul li h5
 {
 	text-align: center;
 	width: 100%;
@@ -187,14 +175,14 @@ a {
 	font-size: 25px;
 }
 
-#main-content ul li p
+#shah-main-content ul li p
 {
 	font-weight: 100;
 	font-size: 14px;
 	line-height: 150%;
 }
 
-#quote
+#shah-quote
 {
 	background:#dbf5ff;
 	padding:30px;
@@ -204,30 +192,30 @@ a {
 	margin-bottom:50px;
 }
 
-#quote h2
+#shah-quote h2
 {
 	width: 84%;
 }
 
-#quote h4
+#shah-quote h4
 {
 	width: 74%;
 	color: #7da2be;
 	font-weight: 400;
 }
 
-#quote-author
+#shah-quote-author
 {
 	color: #494949;
 	font-weight: bold;
 }
 
-#quote-author img
+#shah-quote-author img
 {
 	float: left;
 }
 
-#quote-author span
+#shah-quote-author span
 {
 	font-weight: 300;
 	display: block;
@@ -235,19 +223,19 @@ a {
 	font-size: 12px;
 }
 
-#quote-thumbnail
+#shah-quote-thumbnail
 {
 	float:right;
 }
 
-#quote p
+#shah-quote p
 {
 	float: left;
 	margin-top: 20px;
 	margin-left: 20px;
 }
 
-#main-content h1
+#shah-main-content h1
 {
 	width:46%;
 	padding:2%;
@@ -258,7 +246,7 @@ a {
 	float:left;
 }
 
-#main-content .button
+#shah-main-content .shah-button
 {
 	width:30%;
 	margin-right:10%;
@@ -268,17 +256,17 @@ a {
 	margin-top:60px;
 }
 
-#main-content ul li p
+#shah-main-content ul li p
 {
 	color: #535353;
 }
 
-#main-content ul li img
+#shah-main-content ul li img
 {
 	width:60%;
 }
 
-#footer-wrapper
+#shah-footer-wrapper
 {
 	background: #29313f;
 	color: #697d89;
@@ -287,7 +275,7 @@ a {
 	padding:30px 0px;
 }
 
-#footer-nav
+#shah-footer-nav
 {
 	padding: 0px;
 	margin: 0 auto;
@@ -298,12 +286,12 @@ a {
 	display: inline-block;
 }
 
-#footer-nav li
+#shah-footer-nav li
 {
 	margin: 15px 0px;
 }
 
-.hover li
+.shah-hover li
 {
 	cursor:pointer;
 	transition: color .2s;
@@ -312,12 +300,12 @@ a {
 	-o-transition: color .2s; 
 }
 
-.hover li:hover
+.shah-hover li:hover
 {
 	color:#FFF;
 }
 
-#nav
+#shah-nav
 {
 	width: 110%;
 	list-style: none;
@@ -326,7 +314,7 @@ a {
 	color: #36aad9;
 }
 
-#nav li
+#shah-nav li
 {
 	background: #eeeeee;
 	cursor: pointer;
@@ -339,18 +327,18 @@ a {
 	border-right:0px;
 }
 
-#header-content-right img
+#shah-header-content-right img
 {
 	width:100%;
 	height:400px;
 }
 
-.active-nav
+.shah-active-nav
 {
 	color: #606060;
 }
 
-.arrow-down 
+.shah-arrow-down 
 {
 	transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
@@ -369,7 +357,7 @@ a {
 	background: #eeeeee;
 }
 
-#preload-images
+#shah-preload-images
 {
 	position:absolute;
 	visibility:hidden;
@@ -377,45 +365,45 @@ a {
 	width:0px;
 }
 
-#social-wrapper ul
+#shah-social-wrapper ul
 {
 	padding:0px;
 	margin:0px;
 	list-style:none;
 }
 
-#social-wrapper ul li
+#shah-social-wrapper ul li
 {
 	display:inline-block;
 }
 
-#copyright
+#shah-copyright
 {
 	color: #10b0d0;
 }
 
-.footer-content-wrapper
+.shah-footer-content-wrapper
 {
 	width: 50%;
 	display: inline-block;
 	float: left;
 }
 
-.footer-wrapper
+.shah-footer-wrapper
 {
 	width:46%;
 	float:left;
 	margin:0 1%;
 }
 
-.footer-wrapper h3
+.shah-footer-wrapper h3
 {
 	margin-top:0px;
 	text-transform:uppercase;
 	font-size:16px;
 }
 
-.feed
+.shah-feed
 {
 	color:#FFF;
 	padding:10px 0px;
@@ -424,7 +412,7 @@ a {
 	line-height:150%;
 }
 
-.feed-time
+.shah-feed-time
 {
 	margin:0px;
 	padding:0px;
