@@ -80,7 +80,6 @@ body
 	display: inline-block;
 	float: right;
 	margin-top: 15px;
-	color: #697d89;
 	font-weight: bold;
 	font-size: 12px;
 }
@@ -293,6 +292,7 @@ body
 
 .shah-hover li
 {
+	color: #697d89 !important;
 	cursor:pointer;
 	transition: color .2s;
 	-moz-transition: color .2s;
@@ -302,7 +302,7 @@ body
 
 .shah-hover li:hover
 {
-	color:#FFF;
+	color:#FFF !important;
 }
 
 #shah-nav
